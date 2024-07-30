@@ -14,7 +14,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Title Slide </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="title" class="form-control" required placeholder="Masukan Title Slide">
+                                    <input type="text" name="title" class="form-control" placeholder="Masukan Title Slide">
                                 </div>
                             </div>
 
@@ -23,7 +23,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Poto </label>
                                 <div class="col-sm-10">
-                                    <input type="file" name="poto" class="form-control" required accept=".jpg, .png, .jpeg">
+                                    <input type="file" name="poto" class="form-control" accept=".jpg, .png, .jpeg">
                                 </div>
                             </div>
 

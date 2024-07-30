@@ -15,7 +15,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Jenis UPC </label>
                                 <div class="col-sm-10">
-                                    <select name="id_jenis_upc" class="form-control" required>
+                                    <select name="id_jenis_upc" class="form-control">
                                         <option value=""> Pilih Jenis UPC</option>
                                         @foreach ($list_jenis_upc as $jenis_upc)
                                             <option value="{{ $jenis_upc->id }}"> {{ $jenis_upc->nama_upc }}</option>
@@ -27,7 +27,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Nama Lelang </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="nama" class="form-control" required
+                                    <input type="text" name="nama" class="form-control"
                                         placeholder="Masukan Nama lelang">
                                 </div>
                             </div>
@@ -35,7 +35,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Tanggal Lelang </label>
                                 <div class="col-sm-10">
-                                    <input type="date" name="tanggal_lelang" class="form-control" required
+                                    <input type="date" name="tanggal_lelang" class="form-control"
                                         placeholder="Masukan Tanggal lelang">
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Poto </label>
                                 <div class="col-sm-10">
-                                    <input type="file" name="poto" class="form-control" required
+                                    <input type="file" name="poto" class="form-control"
                                         accept=".jpg, .png, .jpeg">
                                 </div>
                             </div>

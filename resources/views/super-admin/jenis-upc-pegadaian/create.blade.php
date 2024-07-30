@@ -14,21 +14,21 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Nama UPC Pegadaian </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="nama_upc" class="form-control" required placeholder="Masukan Nama UPC Pegadaian">
+                                    <input type="text" name="nama_upc" class="form-control" placeholder="Masukan Nama UPC Pegadaian">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Alamat UPC Pegadaian </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="alamat" class="form-control" required placeholder="Masukan Alamat UPC Pegadaian">
+                                    <input type="text" name="alamat" class="form-control" placeholder="Masukan Alamat UPC Pegadaian">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">No Telp </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="no_telp" class="form-control" required placeholder="Masukan No Telp UPC">
+                                    <input type="text" name="no_telp" class="form-control" placeholder="Masukan No Telp UPC">
                                 </div>
                             </div>                     
 

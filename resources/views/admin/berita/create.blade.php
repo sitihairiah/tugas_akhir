@@ -14,21 +14,21 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Judul Berita </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="judul" class="form-control" required placeholder="Masukan Judul Berita">
+                                    <input type="text" name="judul" class="form-control" placeholder="Masukan Judul Berita">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Deskripsi Berita </label>
                                 <div class="col-sm-10">
-                                    <textarea name="deskripsi" class="summernote" required></textarea>
+                                    <textarea name="deskripsi" class="summernote"></textarea>
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Poto </label>
                                 <div class="col-sm-10">
-                                    <input type="file" name="poto" class="form-control" required accept=".jpg, .png, .jpeg">
+                                    <input type="file" name="poto" class="form-control" accept=".jpg, .png, .jpeg">
                                 </div>
                             </div>
 

@@ -15,28 +15,28 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Nama Lelang </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="nama" class="form-control" required placeholder="Masukan Nama Lelang">
+                                    <input type="text" name="nama" class="form-control" placeholder="Masukan Nama Lelang">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Tanggal Lelang </label>
                                 <div class="col-sm-10">
-                                    <input type="date" name="tanggal_lelang" class="form-control" required placeholder="Masukan Tanggal lelang">
+                                    <input type="date" name="tanggal_lelang" class="form-control" placeholder="Masukan Tanggal lelang">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Deskripsi Lelang </label>
                                 <div class="col-sm-10">
-                                    <textarea name="deskripsi" class="summernote" required></textarea>
+                                    <textarea name="deskripsi" class="summernote"></textarea>
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Poto </label>
                                 <div class="col-sm-10">
-                                    <input type="file" name="poto" class="form-control" required accept=".jpg, .png, .jpeg">
+                                    <input type="file" name="poto" class="form-control" accept=".jpg, .png, .jpeg">
                                 </div>
                             </div>
 

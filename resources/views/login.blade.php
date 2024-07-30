@@ -57,7 +57,7 @@
                                                 <label for="username">Username</label>
                                                 <div class="input-group mb-3">
                                                     <input type="text" class="form-control" name="username"
-                                                        placeholder="Masukan username" required>
+                                                        placeholder="Masukan username">
                                                 </div>
                                             </div>
 
@@ -65,7 +65,7 @@
                                                 <label for="userpassword">Password</label>
                                                 <div class="input-group mb-3">
                                                     <input type="password" class="form-control" name="password"
-                                                        placeholder="**********" required>
+                                                        placeholder="**********">
                                                 </div>
                                             </div>
 

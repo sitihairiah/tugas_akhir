@@ -15,7 +15,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Jenis UPC Pegadaian </label>
                                 <div class="col-sm-10">
-                                    <select name="id_jenis_upc" class="form-control" required>
+                                    <select name="id_jenis_upc" class="form-control">
                                         <option value=""> Silahkan Pilih UPC Pegadaian</option>
                                         @foreach ($list_jenis_upc as $jenis_upc)
                                             <option value="{{ $jenis_upc->id }}">
@@ -28,28 +28,28 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Nama </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="nama" class="form-control" required placeholder="Masukan Nama Admin">
+                                    <input type="text" name="nama" class="form-control" placeholder="Masukan Nama Admin">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Username </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="username" class="form-control" placeholder="Masukan Username" required>
+                                    <input type="text" name="username" class="form-control" placeholder="Masukan Username">
                                 </div>
                             </div>
                                 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Password</label>
                                 <div class="col-sm-10">
-                                    <input type="password" name="password" class="form-control" placeholder="************" required>
+                                    <input type="password" name="password" class="form-control" placeholder="************">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Poto </label>
                                 <div class="col-sm-10">
-                                    <input type="file" name="poto" class="form-control" accept=".jpg, .png, .jpeg" required>
+                                    <input type="file" name="poto" class="form-control" accept=".jpg, .png, .jpeg">
                                 </div>
                             </div>
 
