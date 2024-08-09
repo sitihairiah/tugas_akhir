@@ -28,6 +28,7 @@ class LelangController extends Controller
         $lelang = New Lelang();
         $lelang->id_jenis_upc = request('id_jenis_upc');
         $lelang->nama = request('nama');
+        $lelang->harga = request('harga');
         $lelang->tanggal_lelang = request('tanggal_lelang');
         $lelang->deskripsi = request('deskripsi');
         $lelang->handleUploadPoto();
@@ -57,6 +58,7 @@ class LelangController extends Controller
     {
         $lelang = Lelang::find($lelang);
         $lelang->nama = request('nama');
+        $lelang->harga = request('harga');
         $lelang->tanggal_lelang = request('tanggal_lelang');
         $lelang->deskripsi = request('deskripsi');
         $lelang->handleUploadPoto();

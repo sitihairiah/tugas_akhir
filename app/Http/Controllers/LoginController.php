@@ -21,9 +21,7 @@ class LoginController extends Controller
             return redirect('admin');
         }
 
-        if (auth()->guard('customer')->attempt(['username' => request('username'), 'password' => request('password')])){
-            return redirect('customer');
-        }
+       
 
         return redirect('login');
     }
@@ -31,7 +29,7 @@ class LoginController extends Controller
     public function logout(){
         
 		auth()->guard('admin')->logout();
-		auth()->guard('customer')->logout();
+		auth()->guard('super-admin')->logout();
         return redirect('/');
     }
 }

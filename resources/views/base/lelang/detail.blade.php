@@ -22,8 +22,18 @@
                             
                         </div>
                         <div class="date">
-                            <span>{{ date("d-M-Y", strtotime($lelang->tanggal_lelang)) }}</span>
+                            <div class="from-group row">
+                                <div class="col-md-6">
+
+                                    <p class="float-left">{{$lelang->harga}}</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-right">{{ date("d-M-Y", strtotime($lelang->tanggal_lelang)) }}</p>
+
+                                </div>
+                            </div>
                         </div>
+                        
                         <h3 class="title">
                            {{ $lelang->nama }}
                         </h3>

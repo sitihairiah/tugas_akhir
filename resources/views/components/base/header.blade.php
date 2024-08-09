@@ -30,7 +30,7 @@
                             <li><a href="{{ url('lelang') }}"> Lelang</a></li>
                             <li><a href="{{ url('berita') }}"> Berita</a></li>
                             <li><a href="{{ url('contact') }}"> Contact</a></li>
-                           
+                   
                         </ul>
                     </ul>
                 </div>
@@ -101,7 +101,7 @@
                                 <li><a href="{{ url('lelang') }}"> Lelang</a></li>
                                 <li><a href="{{ url('berita') }}"> Berita</a></li>
                                 <li><a href="{{ url('contact') }}"> Contact</a></li>
-                               
+                                
                             </ul>
                         </div>
                     </nav>

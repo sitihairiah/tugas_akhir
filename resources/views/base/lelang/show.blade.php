@@ -32,7 +32,7 @@
                             <div class="plyr-video m-b-50">
                                 <img src="{{ url("public/$lelang->poto") }}" style="object-fit: cover; position: static; width: 100%;">
                             </div>
-                            <p class="text-block m-b-30">
+                            <p class="m-b-30" style="font-size: 100%;">
                                 {!! nl2br($lelang->deskripsi) !!}
                             </p>
                             

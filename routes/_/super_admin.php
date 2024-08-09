@@ -18,6 +18,7 @@ Route::group(['middleware' => 'auth:super-admin'], function () {
 
     Route::resource('x', SuperAdminController::class);
     Route::resource('admin', AdminController::class);
+    Route::resource('jenis-upc-pegadaian', JenisUpcPegadaianController::class);
 
     Route::resource('berita', BeritaController::class);
     Route::put('berita/publis/{berita}', [BeritaController::class, 'publis']);

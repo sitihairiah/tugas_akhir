@@ -16,7 +16,7 @@
                                 <th>Nama Jenis UPC</th>
                                 <th>Nama Lelang</th>
                                 <th>Tanggal Lelang</th>
-                                <th style="width: 50%" >Poto</th>
+                                <th style="width: 70%" >Poto</th>
                                 
                             </tr>
                         </thead>
@@ -38,7 +38,7 @@
                                 <td class="text-center">{{ $lelang->nama }}</td>
                                 <td class="text-center">{{date("d-M-Y", strtotime($lelang->tanggal_lelang)) }}</td>
                                 <td class="text-center">
-                                    <img src="{{ url("public/$lelang->poto") }}" class="img" style="width: 30%">
+                                    <img src="{{ url("public/$lelang->poto") }}" style="width: 100%">
                                 </td>
                                
                             </tr>

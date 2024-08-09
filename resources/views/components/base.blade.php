@@ -37,13 +37,9 @@
     <link href="{{ url('public/base') }}/css/switcher.css" rel="stylesheet">
     <link href="{{ url('public/base') }}/css/colors/primary.css" rel="stylesheet" id="colors">
     <link href="{{ url('public/base') }}/css/retina.css" rel="stylesheet">
-    <!--
-    Favicons
-    ==================================================
-    -->
     <link rel="shortcut icon" href="{{ url('public/base') }}/logo.png">
-   
     <script src="{{ url('public/base') }}/js/modernizr-custom.js"></script>
+
 </head>
 
 <body>
@@ -104,6 +100,8 @@
     End Document
     ==================================================
     -->
+
+   
 </body>
 
 </html>

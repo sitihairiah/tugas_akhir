@@ -38,6 +38,14 @@
                             </div>
 
                             <div class="form-group row">
+                                <label class="col-sm-2 col-form-label">Harga Barang </label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="harga" class="form-control"
+                                        value="{{ $lelang->harga }}">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Tanggal Lelang </label>
                                 <div class="col-sm-10">
                                     <input type="date" name="tanggal_lelang" class="form-control"
@@ -48,7 +56,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-2 col-form-label">Deskripsi </label>
                                 <div class="col-sm-10">
-                                    <textarea name="deskripsi" class="summernote">{{ $lelang->deskripsi }}</textarea>
+                                    <textarea name="deskripsi" class="form-control">{{ $lelang->deskripsi }}</textarea>
                                 </div>
                             </div>
 

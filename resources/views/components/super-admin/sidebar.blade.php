@@ -10,7 +10,7 @@
     </div>
 
     <div class="menu-content h-100" data-simplebar>
-        <ul class="metismenu left-sidenav-menu">
+-        <ul class="metismenu left-sidenav-menu">
             <li>
                 <a href="{{ url('super-admin') }}">
                     <i data-feather="home" class="align-self-center menu-icon"></i>
@@ -56,10 +56,6 @@
                     <i data-feather="list" class="align-self-center menu-icon"></i>
                     <span>Data Berita</span>
                     <span class="badge badge-soft-success menu-arrow"></span>
-                </a>
-            </li>
-
-            <li>
                 <a href="{{ url('super-admin/slide') }}">
                     <i data-feather="list" class="align-self-center menu-icon"></i>
                     <span>Data Slide</span>
@@ -67,13 +63,15 @@
                 </a>
             </li>
 
+             
+
             {{-- <li>
                 <a href="{{ url('super-admin/galeri') }}">
                     <i data-feather="list" class="align-self-center menu-icon"></i>
                     <span>Data Galeri</span>
                     <span class="badge badge-soft-success menu-arrow"></span>
                 </a>
-            </li> --}}
+            </li> --}} 
         </ul>
     </div>
 </div>
